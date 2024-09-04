@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }  
+
+body {
+    margin: 0;
+    font-family: 'Roboto','Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+    background-color: #FFD700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    width: 1000px;
+    background:blanchedalmond;
+    justify-content: center;
+    box-sizing: content-box;
+}
+
+.section_1{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.container_1{
+    margin: 80px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.boton-amarillo{
+    background-color:#FFD700 ;
+    border-radius: 2px ;
+    padding: 5px 22px;
+    border: none; 
+    font-weight:bold ;
+
+}
+.section_2{
+    display: flex;
+    justify-content: center;
+    
+    margin: 100px;
+    padding: 10px;
+    background-color:#f2f2f2;
+    max-width: 930px;
+    position: relative;
+    bottom: 25px;
+    z-index: 1;
+
+}
+.caja{
+    display: flex;
+    justify-content: center;
+}
+
+.container_2{
+    margin: 50px;
+    max-width: 290px;
+
+}
+
+.img-container_2{
+    padding: 10px;
+    margin: 15px;
+}
+
+.img-barras{
+    margin: 10px;
+}
+
+.titulo-amarillo{
+    font-size: 40px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+}
+.read-more{
+    font-weight: bold;
+}
+
+.section_3{
+ background-color: #FFD700;
+margin-top: -300px;
+height: 800px;
+padding: 150px;
+}
+
+
+
+.titulo-section_3{
+    width: 800px;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.section_3 p{
+    width: 500px;
+    font-size: 25px;
+}
+
+.section_3 img{
+    width:  720px;
+    position: relative;
+    z-index: 1;
+    left: 550px;
+    top:-300px;
+}
+
+.section_3 button{
+    border:none;
+    background-color: #000;
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+.container_4{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    background: linear-gradient(to right, #ffffff 50%, #f4f4f4 100%);
+}
+.contenedor_4_div{
+    padding-bottom: 50px;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.titulo_4{
+    display: flex;
+    color:  rgb(247, 205, 21);
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.boton_4{
+    margin-top: 40px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    border: none;
+}
+
+.section_7{
+    background-color:#f2f2f2;;
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+.container_7{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.titulo_7{
+    font-size: 45px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto_7{
+    padding-right: 70px;
+    font-family: "Open Sans", sans-serif;
+}
+.boton_7{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+.imagen_4{
+    padding-top: 10px;
+    padding-left: 200px;
+    
+}
+.section_5{
+    text-align: center;
+    background-color: black;
+    margin-top: 100px;
+}
+.titulo_5{
+    padding-top: 60px;
+    color: rgb(247, 205, 21);;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto_5{
+    padding-left: 300px;
+    margin: 30px;
+    padding-right: 300px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.boton_5{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+    margin: 40px;
+}
+.section_6{
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+.container_6{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.titulo_6{
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto_6{
+    padding-right: 70px;
+    
+}
+.boton_6{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+
+.section_7{
+    background-color:#f2f2f2;;
+    display: flex;
+    padding: 80px;
+    margin-block-end: 150px;
+    justify-content: space-around;
+}
+.container_7{
+    padding-top: 200px;
+    margin-left: 30px;
+}
+.titulo_7{
+    font-size: 45px;
+}
+.texto_7{
+    padding-right: 70px;
+}
+.boton_7{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:rgb(247, 205, 21);
+    border: none;
+}
+.section_8{
+    margin-top: 40px;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.section_8 .contain_8{
+    background-color:black ;
+    height: 400px;
+    width: 400px;
+    color: white;
+    margin-right: 20px;
+}
+.section_8 .box_1 {
+ display: flex;
+justify-content: space-around;
+
+}
+.section_8 .box_1 input {
+   width: 150px;
+   height: 15px;
+   margin: 10px ;
+}
+.section_8 .box_2 {
+    margin-left: 20px;
+}
+.section_8 .box_2 input{
+    width: 350px;
+}
+.section_8 .box_3 {
+    margin-left: 20px;
+}
+.section_8 .box_3 input{
+    width: 350px;
+}
+.section_8 .box_4 {
+    margin-left: 20px;
+}
+.section_8 .box_4 input{
+    width: 350px;
+    height: 100px;
+}
+.section_8 .contain_8 p{
+   margin-left: 20px;
+    font-size: 10px;
+    width: 350px;
+}
+.section_9{
+    text-align: center;
+    background-color: #f7cd15;
+    margin-top: 100px;
+}
+.titulo_9{
+    padding-top: 60px;
+    color: black;
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+.texto_9{
+    padding-left: 300px;
+    margin-top: 30px;
+    padding-right: 300px;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+.boton_9{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    background-color:black;
+    border: none;
+    margin: 40px;
+    color: white;
+}
+.section_10{
+    background-color: black;
+}
+
+.link-contenedor{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #000;
+    padding: 20px;
+    margin: 30px;
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+.columna a {
+    color: #f7c000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.columna a:hover {
+    text-decoration: underline;
+}
+.text-container {
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #000;
+}
+.text-container h1 {
+    color: #f7c000;
+}
+.text-container button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.text-container p {
+    margin-top: 20px;
+}
+.logo-blanco img{
+    margin: 30px;
+    margin-left: 35px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #f7c000;
+    padding: 20px;
+}
+.footer .copyright {
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer .social-iconos {
+    display: flex;
+    gap: 15px;
+}
+.footer .social-iconos a {
+    text-decoration: none;
+    color: #f7c000;
+    font-size: 24px;
+}
+.footer .social-iconos a:hover {
+    color: #fff; 
+}
+
+@media screen and (max-width:480px) {
+    .section_1 img{
+        margin-top: 10px;
+        width: 350px;
+        height: auto;
+    }
+    .section_1{
+        margin: 0px;
+        flex-wrap: wrap; 
+   }
+    .titulo{
+        font-size: 30px;
+    }
+    .img-barras{
+        width: 150px;
+    }
+    .img-container_2{
+        text-align: center;
+        margin-top: 120px;
+    }
+    .section_3{
+        font-size: 15px;
+        background-color: #FFD700;
+        margin-top: -140px;
+        height: 465px;
+        padding: 20px;
+    }
+    .section_3 img{
+        width: 255px;
+        position: relative;
+        z-index: 1;
+        left: 160px;
+        top: -47px;
+    }
+    .we{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .section_3 p{
+        font-size: 15px;
+        margin: 15px;
+        width: 400px;
+    }
+    .container_3{
+        margin-top: 150px;
+    }
+    .section_3 button{
+        margin-left: 10px;
+    }
+    .container_4{
+        flex-wrap: wrap;
+        max-width: 366px;
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+    .imagen-4-1{
+        margin-top: 15px;
+        width: 250px;
+        height: auto;
+    }
+    .imagen_4{
+        padding-top: 15px;
+        padding-left: 0px;
+        
+    }
+    .texto_5{
+        padding-left: 66px;
+        padding-right: 50px;
+    }
+    .container_5 img{
+        width: 300px;
+        height: auto;
+    }
+    .section_6 img{
+        width: 300px;
+        height: auto;
+    }
+    .section_6{
+        flex-wrap: wrap;
+    }
+    .container_6{
+        padding-top: 85px;
+        margin-left: 30px;
+    }
+    .section_7 img{
+        width: 300px;
+        height: 250px;
+        margin-top: 15px;
+    }
+    .section_7{
+        flex-wrap: wrap;
+    }
+    .container_7{
+        padding-top: 15px;
+    }
+    .section_8{
+        flex-wrap: wrap;
+        margin-left: 35px;
+    }
+    .text-container{
+        margin-left: 65px;
+    }
+    .section_9 img{
+        width: 400px;
+    }
+    .texto_9 {
+        padding-left: 0px;
+        margin-left: 15px;
+        padding-right: 0px;
+    }
+}
