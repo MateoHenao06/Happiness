@@ -411,7 +411,6 @@ justify-content: space-around;
 }
 .text-container {
     padding: 20px;
-    width: 50%;
     box-sizing: border-box;
     background-color: #fff;
     color: #000;
@@ -479,6 +478,9 @@ justify-content: space-around;
     .img-barras{
         width: 150px;
     }
+    .section_2{
+        margin: 0px;
+    }
     .img-container_2{
         text-align: center;
         margin-top: 120px;
@@ -486,9 +488,12 @@ justify-content: space-around;
     .section_3{
         font-size: 15px;
         background-color: #FFD700;
-        margin-top: -140px;
+        margin-top: -20px;
         height: 465px;
         padding: 20px;
+    }
+    .titulo-section_3 h2{
+        width: 180px;
     }
     .section_3 img{
         width: 255px;
@@ -496,6 +501,9 @@ justify-content: space-around;
         z-index: 1;
         left: 160px;
         top: -47px;
+    }
+    .titulo-section_3{
+        width: 0;
     }
     .we{
         font-size: 25px;
@@ -562,6 +570,7 @@ justify-content: space-around;
     .section_8{
         flex-wrap: wrap;
         margin-left: 35px;
+        width: 0px;
     }
     .text-container{
         margin-left: 65px;
